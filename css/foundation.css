@@ -1878,8 +1878,8 @@ button, .button {
 /* Panels */
 .panel {
   border-style: none;
-  margin-bottom: 1.25rem;
-  padding: 1.25rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
   background: #24bf8d; }
   .panel > :first-child {
     margin-top: 0; }
