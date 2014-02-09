@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*Controls the background colours of individual web app sections*/
+
+#login {
+	background-color: #f1c40f;
+}
+
+#metab {
+	background-color: #2dcc71;
+}
+
+#dashboard {
+    background-color: #c23c2e;
+}
+
+
+/*#login section {
+    vertical-align: middle;
+}
+*/
+
+
+.register {
+    text-align: right;
+}
+
+
+/*.center {
+    position: relative;
+    top: 45%;
+}​
+*/
+.loginfont {
+	color: #fff;
+	font-size: 2rem;	
+}
+	
+
+
+
+
