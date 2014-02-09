@@ -37,7 +37,15 @@
 	font-size: 2rem;	
 }
 	
+.quiz {
+	  background-color: #3498db;
+	  color: #FFF;}
+	  
+	quiz:hover, quiz:focus, .quiz:hover, .quiz:focus {
+    background-color: #e67e22; }
+	quiz:hover, quiz:focus, .quiz:hover, .quiz:focus {
+    color: #3a3b36; }
 
-
-
-
+.readabletext {
+	font-family: Roboto Slab;
+}
