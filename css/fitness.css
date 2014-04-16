@@ -36,7 +36,7 @@
 	color: #fff;
 	font-size: 2rem;	
 }
-	
+/*Button amendments*/	
 .quiz {
 	  background-color: #3498db;
 	  color: #FFF;}
@@ -46,6 +46,11 @@
 	quiz:hover, quiz:focus, .quiz:hover, .quiz:focus {
     color: #3a3b36; }
 
+.display {
+	display:inline;
+}
+
 .readabletext {
-	font-family: Roboto Slab;
+	font-family: "Lato";
+	font-size: 1rem;
 }
