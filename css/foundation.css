@@ -2737,7 +2737,8 @@ ul {
     ul.no-bullet li ol {
       margin-left: 1.25rem;
       margin-bottom: 0;
-      list-style: none; }
+      list-style: none; 
+	   }
 
 /* Unordered Lists */
 ul li ul,
@@ -2745,6 +2746,7 @@ ul li ol {
   margin-left: 1.25rem;
   margin-bottom: 0;
   font-size: 1rem;
+  
   /* Override nested font-size change */ }
 ul.square li ul, ul.circle li ul, ul.disc li ul {
   list-style: inherit; }
@@ -4370,9 +4372,10 @@ label.error {
       clear: both; }
 
   .small-block-grid-2 > li {
-    width: 50%;
+    width: 10%;
     padding: 0 0.625rem 1.25rem;
-    list-style: none; }
+    list-style: none; 
+	text-align: center;}
     .small-block-grid-2 > li:nth-of-type(n) {
       clear: none; }
     .small-block-grid-2 > li:nth-of-type(2n+1) {
@@ -4471,7 +4474,9 @@ label.error {
   .medium-block-grid-1 > li {
     width: 100%;
     padding: 0 0.625rem 1.25rem;
-    list-style: none; }
+    list-style: none;
+	
+	 }
     .medium-block-grid-1 > li:nth-of-type(n) {
       clear: none; }
     .medium-block-grid-1 > li:nth-of-type(1n+1) {
