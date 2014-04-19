@@ -15,27 +15,15 @@
     background-color: #c23c2e;
 }
 
-
-/*#login section {
-    vertical-align: middle;
-}
-*/
-
-
 .register {
     text-align: right;
 }
 
-
-/*.center {
-    position: relative;
-    top: 45%;
-}​
-*/
 .loginfont {
 	color: #fff;
 	font-size: 2rem;	
 }
+
 /*Button amendments*/	
 .quiz {
 	  background-color: #3498db;
@@ -48,10 +36,21 @@
 }
 
 .readabletext {
-	font-family: "Lato";
+	font-family: "lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; 
 	font-size: 1rem;
 }
 
 .spacer {
 	margin-top: 1rem;
 }
+.spacer2 {
+	padding-top: 8%;
+}
+
+.centre {
+	text-align: center;
+}
+.barheadingtext {
+	font-size: 2rem;  	
+}
+

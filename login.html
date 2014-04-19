@@ -1,6 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="apple-mobile-web-app-capable" content="yes" /> 
@@ -15,53 +16,33 @@
 <link rel="apple-touch-icon" sizes="76x76" href="img/touch-icon-ipad.png">
 <link rel="apple-touch-icon" sizes="120x120" href="img/touch-icon-iphone-retina.png">
 <link rel="apple-touch-icon" sizes="152x152" href="img/touch-icon-ipad-retina.png">
-!-- Startup images -->
+<!-- Startup images -->
 <!-- iOS 6 & 7 iPad (retina, portrait) -->
 <link href="startup-image-1536x2008.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" rel= 	"apple-touch-startup-image">
 <!-- iOS 6 & 7 iPad (retina, landscape) -->
 <link href="startup-image-1496x2048.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
 
 <!-- iOS 6 iPad (portrait) -->
-<link href="startup-image-768x1004.png"
-      media="(device-width: 768px) and (device-height: 1024px)
-         and (orientation: portrait)
-         and (-webkit-device-pixel-ratio: 1)"
-      rel="apple-touch-startup-image">
+<link href="startup-image-768x1004.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
 <!-- iOS 6 iPad (landscape) -->
-<link href="startup-image-748x1024.png"
-      media="(device-width: 768px) and (device-height: 1024px)
-         and (orientation: landscape)
-         and (-webkit-device-pixel-ratio: 1)"
-      rel="apple-touch-startup-image">
+<link href="startup-image-748x1024.png" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
 
 <!-- iOS 6 & 7 iPhone 5 -->
-<link href="startup-image-640x1096.png"
-      media="(device-width: 320px) and (device-height: 568px)
-         and (-webkit-device-pixel-ratio: 2)"
-      rel="apple-touch-startup-image">
+<link href="startup-image-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
 
 <!-- iOS 6 & 7 iPhone (retina) -->
-<link href="startup-image-640x920.png"
-      media="(device-width: 320px) and (device-height: 480px)
-         and (-webkit-device-pixel-ratio: 2)"
-      rel="apple-touch-startup-image">
+<link href="startup-image-640x920.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
 
 <!-- iOS 6 iPhone -->
-<link href="startup-image-320x460.png"
-      media="(device-width: 320px) and (device-height: 480px)
-         and (-webkit-device-pixel-ratio: 1)"
-      rel="apple-touch-startup-image">
+<link href="startup-image-320x460.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" rel="apple-touch-startup-image">
       
   
   </head>
   <body id="login">
+  <!--@TODO issue with vertically aligning text.  I have used a spacer class but it is only an estimate.  Does not work when web app is delcaered by meta, but does work when viewing app through browser-->
     <section>
-<!--       <h1>&nbsp;</h1>
-      <h1>&nbsp;</h1>
-      <h1>&nbsp;</h1> -->
-      <!-- @TODO this is horrible, change me -->
 
-    	<div class="row ">
+    	<div class="row spacer2">
 		    <div class="small-12 columns">
           <form id="loginForm">
 				    <div class="row">
@@ -78,13 +59,12 @@
           <a href="#" class="expand button">login</a>
         </div>
         <div class="small-8 columns loginfont">
-          <p>forgot password</p>
+          forgot password
         </div>
         <div class="small-4 columns register loginfont">
-          <p>register</p>
+          register
         </div>
 	    </div>
-        
     </section>
 
     <script src="js/foundation.min.js"></script>
