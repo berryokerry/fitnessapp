@@ -54,11 +54,17 @@
 .barheadingtext {
 	font-size: 2rem;  	
 }
-li  {
-	display: inline;
-	
-}
 
+
+.nav li {
+	display: inline;
+}
+.nav li {
+	background-image: url(../img/dash/navbuttons_0000s_0003_back.png)
+}
+   
 	
+    
+	 
 	
 	
