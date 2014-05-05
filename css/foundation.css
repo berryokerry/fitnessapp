@@ -2727,7 +2727,8 @@ dl {
   line-height: 1.6;
   margin-bottom: 1.25rem;
   list-style-position: outside;
-  font-family: inherit; }
+  font-family: inherit;
+  color: #FFF }
 
 ul {
   margin-left: 1.1rem; }

@@ -12,8 +12,7 @@
 }
 
 #dashboard {
-    background-color: #c23c2e;
-	text-align: center;
+    background-color: #c23c2e; 		
 }
 
 .register {
@@ -54,15 +53,13 @@
 .barheadingtext {
 	font-size: 2rem;  	
 }
-
-
+ 
 .nav li {
 	display: inline;
+	background-color: #e67e22;
+		
 }
-.nav li {
-	background-image: url(../img/dash/navbuttons_0000s_0003_back.png)
-}
-   
+
 	
     
 	 
