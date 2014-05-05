@@ -41,29 +41,30 @@
   <body id="login">
   <!--@TODO issue with vertically aligning text.  I have used a spacer class but it is only an estimate.  Does not work when web app is delcaered by meta, but does work when viewing app through browser-->
     <section>
-
+	<form id="loginForm">
     	<div class="row spacer2">
 		    <div class="small-12 columns">
-          <form id="loginForm">
-				    <div class="row">
-				      <div class="small-12 columns">
-				        <input type="text" placeholder="username"  />
-				      </div>
-			      </div>
-				    <div class="row">
-				      <div class="small-12 columns">
-				        <input type="text" placeholder="password"  />
-				      </div>
-				    </div>
-			    </form>
-          <a href="#" class="expand button">login</a>
+     			<input type="text" placeholder="username"  />
+			</div>
         </div>
-        <div class="small-8 columns loginfont">
-          forgot password
+		<div class="row">
+			<div class="small-12 columns">
+				<input type="text" placeholder="password"  />     
+			</div>          
+		</div>
+   </form>
+        <div class="row">
+			<div class="small-12 columns">
+          		<a href="#" class="expand button">login</a>
+        	</div>
         </div>
-        <div class="small-4 columns register loginfont">
-          register
-        </div>
+        <div class="row">
+        	<div class="small-8 columns loginfont">
+          		forgot password
+        	</div>
+        	<div class="small-4 columns register loginfont">
+          		register
+        	</div>
 	    </div>
     </section>
 
